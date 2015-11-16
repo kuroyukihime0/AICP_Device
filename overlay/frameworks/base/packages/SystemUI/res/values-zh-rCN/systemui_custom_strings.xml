@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The OmniROM Project
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Screenrecord Notification Ticker -->
+    <string name="screenrecord_notif_ticker">正在屏幕录像</string>
+
+    <!-- Screenrecord notification title -->
+    <string name="screenrecord_notif_title">屏幕录像中</string>
+
+    <!-- Screenrecord notification action: Stop -->
+    <string name="screenrecord_notif_stop">停止</string>
+
+    <!-- Screenrecord notification action: show/hide pointer -->
+    <string name="screenrecord_notif_pointer_on">显示指针</string>
+    <string name="screenrecord_notif_pointer_off">隐藏指针</string>
+
+    <!-- Screen record notification error title -->
+    <string name="screenrecord_notif_error">无法屏幕录像</string>
+
+    <!-- Heads up toast -->
+    <string name="heads_up_enabled">浮动通知已启用</string>
+    <string name="heads_up_disabled">浮动通知已禁用</string>
+    <string name="heads_up_snooze_message">浮动通知将禁用 <xliff:g id="number">%d</xliff:g> 分钟.</string>
+    <string name="heads_up_snooze_button_title">浮动贪睡</string>
+
+    <!-- Quick settings -->
+    <string name="quick_settings_battery_saver">节电助手</string>
+    <string name="quick_settings_battery_saver_off">节电助手已关闭</string>
+    <string name="quick_settings_doze">Doze 开启</string>
+    <string name="quick_settings_doze_off">Doze 关闭</string>
+    <string name="quick_settings_brightness">亮度</string>
+    <string name="quick_settings_expanded_desktop">扩展</string>
+    <string name="quick_settings_expanded_desktop_off">通常</string>
+    <string name="quick_settings_screen_off">关闭屏幕</string>
+    <string name="quick_settings_screenshot">截图</string>
+    <string name="quick_settings_screenrecord">屏幕录像</string>
+    <string name="quick_settings_screenrecord_on">录像中 ...</string>
+    <string name="quick_settings_sync">同步</string>
+    <string name="quick_settings_sync_off">关闭同步</string>
+    <string name="quick_settings_music_play">播放</string>
+    <string name="quick_settings_music_pause">暂停</string>
+
+</resources>

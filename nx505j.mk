@@ -373,3 +373,8 @@ PRODUCT_COPY_FILES += \
 # Hosts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/hosts:system/etc/hosts
+
+# Default language
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.locale.language=zh \
+    ro.product.locale.region=CN 

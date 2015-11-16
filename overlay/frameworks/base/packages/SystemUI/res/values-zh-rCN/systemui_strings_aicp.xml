@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2015 AICP Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App circle sidebar -->
+    <string name="app_float_maximize_item_title">最小化</string>
+    <string name="app_float_item_title">浮动视图</string>
+    <string name="app_stop_item_title">关闭应用</string>
+
+    <!-- Power Button for Navbar -->
+    <string name="navbar_power_button">电源按钮</string>
+
+    <!-- Greeting -->
+    <string name="aicp_label">欢迎来到 AICP</string>
+
+    <!-- Off/On/Toggle -->
+    <string name="off">关闭</string>
+    <string name="on">开启</string>
+    <string name="toggle">切换</string>
+
+    <!-- Dialog Cancel/OK -->
+    <string name="cancel">取消</string>
+    <string name="dlg_ok">确定</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+    <!-- Slim Shortcut Actions -->
+    <string name="shortcut_picker">Slim Shortcuts</string>
+    <string name="shortcut_rotation">Rotation Lock Toggle</string>
+    <string name="shortcut_torch">手电筒</string>
+    <string name="shortcut_chamber">Chamber of Secrets</string>
+    <string name="shortcut_reboot">重启</string>
+    <string name="shortcut_recovery">Recovery</string>
+    <string name="shortcut_screensleep">Sleep screen</string>
+    <string name="shortcut_volume">Volume panel</string>
+    <string name="shortcut_restart_ui">重启SystemUI</string>
+    <string name="shortcut_powermenu">电源菜单</string>
+    <string name="shortcut_toggle_title">Action to perform</string>
+    <string name="chamber_disabled">Chamber of secrets is closed</string>
+    <string name="chamber_title">Input Settings string</string>
+    <string name="chamber_message">Input a Settings string that is either an on and off (checkbox) function or possibly a list-preference. For example, doze_enabled or similar. Settings can be found in the Settings.java file. WARNING: This process is dangerous!</string>
+    <string name="chamber_invalid">This is an invalid input. Be careful.</string>
+    <string name="chamber_invalid_setting">Try toggling the setting manually to ensure the settings database for this action exists.</string>
+    <string name="chamber_checkbox">Checkbox</string>
+    <string name="chamber_chk_message">Is this setting a checkbox setting?</string>
+    <string name="chamber_int">Input values</string>
+    <string name="chamber_int_message">Input the values you\'d like the setting to toggle between. Separate each value with a comma. Color settings accept hex-values such as #FF00aacc or basic color values like red, green, and yellow.</string>
+    <string name="chamber_name_title">Shortcut name</string>
+    <string name="chamber_name_message">Give the shortcut a name to display with the icon.</string>
+    <string name="chamber_name_toast">Using default name</string>
+
+    <!-- Kill app toast -->
+    <string name="app_killed_message">应用已关闭</string>
+
+    <!-- mount notifications -->
+    <string name="ext_media_mounted_notification_title">挂载</string>
+    <string name="ext_media_unmounted_notification_title">卸载</string>
+    <string name="ext_media_unmounted_notification_message">你可以安全移除应用.</string>
+    <string name="ext_media_unmount_action">卸载</string>
+    <string name="ext_media_mount_action">挂载</string>
+    <string name="ext_media_unmounting_notification_title">卸载中\u2026</string>
+    <string name="ext_media_mounting_notification_title">挂载中\u2026</string>
+
+    <!-- Additional navring targets -->
+    <string name="navring_action_power_menu">电源菜单</string>
+    <string name="navring_action_last_app">最近应用</string>
+    <string name="navring_action_expand_desktop">扩展桌面</string>
+
+    <string name="gestures_message">绘制你的手势</string>
+
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">充电中 (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">充电完毕</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% 剩余</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">无服务</string>
+    <string name="pie_phone_status_airplane_mode">飞行模式已开启</string>
+    <string name="pie_phone_status_emergency_only">只允许紧急通话</string>
+
+    <!-- App sidebar -->
+    <string name="default_folder_text">文件夹</string>
+    <string name="title_activity_sidebar_configuration">Appbar content setup</string>
+    <string name="action_save">Save</string>
+    <string name="toast_items_saved">Appbar items have been saved.</string>
+    <string name="content_setup_instructions">Add items to the Appbar by long pressing any item on the right and drag it over to the Appbar.\n\nCombine items into folders by droping an item onto any existing item in the Appbar.\n\nTo remove an item simply drag it out of the \@appbar.</string>
+    <string name="content_setup_dismiss">Continue</string>
+    <string name="toast_not_installed">App is not installed</string>
+
+    <!-- Slim Action floats tile -->
+    <string name="quick_settings_slim_floats_on">Slim Floats Enabled</string>
+    <string name="quick_settings_slim_floats_off">Slim Floats Disabled</string>
+
+    <!-- Slim Pie Tile -->
+    <string name="quick_settings_slimpie_on">Pie Enabled</string>
+    <string name="quick_settings_slimpie_off">Pie Disabled</string>
+
+    <!-- Battery Saver Dismiss -->
+    <string name="battery_saver_dismiss_title">Dismiss</string>
+
+    <!-- Title shown in recents popup for showing app launch in floating mode -->
+    <string name="recent_float_mode_title">浮动模式</string>
+
+    <!-- Themes Tile -->
+    <string name="quick_settings_themes">主题</string>
+
+    <!-- NavBar tile -->
+    <string name="quick_settings_navbar_on">导航栏开启</string>
+    <string name="quick_settings_navbar_off">导航栏关闭</string>
+
+    <!-- On The Go -->
+    <string name="onthego_notif_ticker">行走模式已激活</string>
+    <string name="onthego_notif_title">行走模式已激活</string>
+    <string name="onthego_notif_stop">停止</string>
+    <string name="onthego_notif_options">设置</string>
+    <string name="onthego_notif_error">无法开启行走模式</string>
+    <string name="onthego_notif_restart">重启行走模式</string>
+    <string name="onthego_notif_camera_changed">相机模式已改变</string>
+    <string name="onthego_transparency">透明度</string>
+    <string name="onthego_front_camera">使用前置摄像头</string>
+    <string name="onthego_service_toggle">自动重启服务</string>
+    <!-- To do: Add QS OnTheGo
+    <string name="quick_settings_onthego_back">Rear Camera</string>
+    <string name="quick_settings_onthego_front">Front Camera</string>-->
+
+    <!-- Heads up -->
+    <string name="heads_up_snooze_message">浮动通知将被禁用 <xliff:g id="number">%d</xliff:g> 分钟.</string>
+    <string name="heads_up_snooze_button_title">浮动贪睡</string>
+
+    <!-- Expanded desktop detail tile -->
+    <string name="quick_settings_expanded_desktop">扩展</string>
+    <string name="quick_settings_expanded_desktop_off">通常</string>
+    <string name="quick_settings_expanded_desktop_detail_title">扩展桌面模式</string>
+    <string name="quick_settings_expanded_hide_status">隐藏状态栏</string>
+    <string name="quick_settings_expanded_hide_navigation">隐藏导航栏</string>
+    <string name="quick_settings_expanded_hide_both">都隐藏</string>
+    <string name="accessibility_quick_settings_expanded_desktop_off">隐藏桌面已禁用</string>
+
+    <!-- Torch detail tile -->
+    <string name="disable_torch_screen_off_title">屏幕关闭时禁用手电筒</string>
+
+</resources>
