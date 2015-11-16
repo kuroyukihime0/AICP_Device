@@ -369,3 +369,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip
 
 
+
+# Hosts
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/etc/hosts:system/etc/hosts
