@@ -84,4 +84,7 @@
 	
 	<string name="reboot_systemui">重启SystemUI</string>
 
+    <!-- label for item that screenrecord in phone options dialog -->
+    <string name="global_action_screenrecord">屏幕录像</string>
+
 </resources>
