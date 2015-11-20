@@ -14,7 +14,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- About phone screen, AICP version name-->
     <string name="mod_version">AICP 版本</string>
     <!-- About phone screen, AICP unknown name-->
