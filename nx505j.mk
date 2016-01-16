@@ -14,7 +14,6 @@
 # limitations under the License.
 #
 
-
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product-if-exists, vendor/nubia/nx505j/nx505j-vendor.mk)
 
